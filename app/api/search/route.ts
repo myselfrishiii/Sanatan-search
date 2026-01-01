@@ -1,4 +1,6 @@
-import { NextRequest, NextResponse, headers } from 'next/server';
+// RIGHT (Next.js 14)
+import { NextRequest, NextResponse } from 'next/server';
+import { headers } from 'next/headers';
 import { Octokit } from '@octokit/rest';
 import Fuse from 'fuse.js';
 import { promises as fs } from 'fs';
