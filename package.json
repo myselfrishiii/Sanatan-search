@@ -1,0 +1,17 @@
+{
+  "name": "my-search-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "@octokit/rest": "^20.0.0",
+    "fuse.js": "^7.0.0"
+  }
+}
